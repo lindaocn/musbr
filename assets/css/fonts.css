@@ -1,0 +1,67 @@
+    @font-face {
+        font-family: "LemonMilkBold";
+        src: url(../../assets/fonts/LEMONMILK-Bold.woff2) format('woff2');
+      }
+
+    @font-face {
+        font-family: "LemonMilkMedium";
+        src: url(../../assets/fonts/LEMONMILK-Medium.woff2) format('woff2');
+      }
+    @font-face {
+        font-family: "CabinetGrotesk";
+        src: url(../../assets/fonts/CabinetGrotesk-Variable.ttf) format('ttf');
+      }
+    
+    .bricolage-grotesque{
+        font-family: "Cabinet Grotesk Variable";
+        font-optical-sizing: auto;
+        font-weight: 400; /*400: normal, 600: bold*/
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+    /*Dans le code de HTML ajoute la class
+    <p class="bricolage-grotesque></p> partout !! 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    */
+
+    h1, .h1{
+        font-family: "LemonMilkBold";
+        font-size: 90px;
+        line-height: 100%;
+    }
+
+    h2, .h2{
+        font-family: "LemonMilkBold";
+        font-size: 29px;
+        line-height: 100%;
+    }
+
+    h3, .h3{
+        font-family: "LemonMilkMedium";
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .body{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .link{
+        font-weight: 800; 
+        font-size: 24px;
+        color: black;
+        font-family: "Cabinet Grotesk Variable";
+
+    }
+
+    .date{
+        font-weight: 600; 
+        font-size: 24px;
+    }
+
+

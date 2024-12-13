@@ -1,0 +1,368 @@
+*{
+    flex-wrap: wrap;
+    .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+.fleche-marge{
+    display: flex;
+    align-items: center;
+}
+
+
+.link, .body, .date{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/*-----------------------------------------------------*/
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 128px;
+    background-image: url('../../images/top-content-background-collection.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: white;
+}
+
+.texte-top-content {
+    width: 726px;
+    display: flex;
+    flex-direction: column;
+    font-family: "LEMON MILK";
+    text-align: start;
+    font-size: 30px;
+    margin-left: 64px;
+    margin-bottom: 71px;
+}
+
+/*-----------------------------------------------------*/
+
+.les-mouvements {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-bottom: 128px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.les-mouvements a, .les-styles a {
+    text-decoration: none;
+    color: #155A7A;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.les-mouvements a:hover, .les-styles a:hover {
+    background-color: #EFEFEF;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.card-images {
+    width: 747px;
+}
+
+.catalogue-mouvements {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.card-mouvements {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.boutons-mouvements {
+    display: flex;
+    flex-direction: column;
+    gap: 23px
+}
+
+.description-mouvements {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.bouton {
+    display: flex;
+    align-items: bottom;
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+
+.les-styles {
+    display: flex;
+    margin-left: 64px;
+    margin-right: 64px;
+    gap: 128px;
+    margin-bottom: 128px;
+}
+
+.card-images {
+    width: 747px;
+}
+
+.catalogue-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+}
+
+.card-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.boutons-styles {
+    display: flex;
+    flex-direction: column;
+    gap:23px
+}
+
+.description-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*---------------------------------------------------------------*/
+
+.les-sculptures {
+    display: flex;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 128px;
+}
+
+.texte-sculptures {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.description-sculptures {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.les-sculptures a {
+    text-decoration: none;
+    color: #155A7A;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*@media(min-width: 1200px){
+    .banner{
+        height: 0vh;
+    }
+}*/
+
+@media(max-width: 1200px){
+    h1, .h1{
+        font-family: "LemonMilkBold";
+        font-size: 90px;
+        line-height: 100%;
+    }
+
+    h2, .h2{
+        font-family: "LemonMilkBold";
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    h3, .h3{
+        font-family: "LemonMilkMedium";
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .body{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .link{
+        font-weight: 800; 
+        font-size: 24px;
+        color: black;
+
+    }
+
+    .date{
+        font-weight: 600; 
+        font-size: 24px;
+    }
+
+   /* .fleche-marge{
+        width: 17px;
+        height: 16.5px;
+    } */
+
+    .titre-impressionnisme{
+        text-align: left;
+    }
+
+    
+}
+
+@media(max-width: 680px){
+
+    .container {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .banner{
+        height: 70vh;
+        background-position: left;
+    }
+    
+/* Changement des titres*/
+
+    .h1{
+        font-size: 32px;
+        margin-left: 0px;
+    }
+    
+    .titre-top-content{
+        font-size: 28px;
+        margin-left: 0px;
+    }
+
+    .texte-top-content{
+        margin-left: 20px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .body, .link, .date{
+        font-size: 14px;
+        line-height: 25px;
+        align-items: start;
+    }
+
+    .les-mouvements a {
+        font-size: 10px;
+    }
+
+    .les-mouvements{
+        margin-bottom: 60px;
+    }
+
+    .banner{
+        font-size: 14px;
+        line-height: 35px;
+        margin-bottom: 36px;
+    }
+
+    .l2{
+        font-size: 14px;
+    }
+
+    .catalogue-mouvements {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .mouvements-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card-styles{
+        margin-bottom: -90px;
+    }
+
+    /*.styles-links{
+        size: 20px;
+    }*/
+
+    /* Liens ensemble */
+    .boutons-mouvements {
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        size: 20px;
+    }
+
+    .boutons-styles{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        size: 20px;
+    }
+
+/* Ajouter à chaque lien la classe l2 + dans le CSS ce code */
+
+    .catalogue-styles, .catalogue-mouvements{
+        gap: 10px;
+    }
+
+
+    /*.boutons-mouvements {
+        font-size: 10px;
+    }*/
+
+    .fleche-marge{
+        height: 1em;
+        display: inline-block;
+    }
+
+    .boutons-styles >.link a{
+        font-size: 16px;
+    }
+
+    .boutons-mouvements > .link a {
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .description-mouvements{
+        text-align: right;
+    }
+
+    .les-sculptures a{
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .texte-sculptures {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .les-styles{
+        margin-bottom: 40px;
+    }
+}
