@@ -1,15 +1,15 @@
     @font-face {
         font-family: "LemonMilkBold";
-        src: url(../../assets/fonts/LEMONMILK-Bold.woff2) format('woff2');
+        src: url(../fonts/LEMONMILK-Bold.woff2) format('woff2');
       }
 
     @font-face {
         font-family: "LemonMilkMedium";
-        src: url(../../assets/fonts/LEMONMILK-Medium.woff2) format('woff2');
+        src: url(../fonts/LEMONMILK-Medium.woff2) format('woff2');
       }
     @font-face {
         font-family: "CabinetGrotesk";
-        src: url(../../assets/fonts/CabinetGrotesk-Variable.ttf) format('ttf');
+        src: url(../fonts/CabinetGrotesk-Variable.ttf) format('ttf');
       }
     
     .bricolage-grotesque{
