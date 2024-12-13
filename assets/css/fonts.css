@@ -6,6 +6,8 @@
     @font-face {
         font-family: "LemonMilkMedium";
         src: url(../fonts/LEMONMILK-Medium.woff2) format('woff2');
+        src: url(../fonts/lemon-milk.ttf) format('ttf');
+        ;
       }
     @font-face {
         font-family: "CabinetGrotesk";
