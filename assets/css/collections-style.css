@@ -164,6 +164,14 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    max-width: 200px;
+}
+
+@media (max-width: 800px) {
+
+    .description-sculptures {
+        max-width: 0px;
+    }
 }
 
 .les-sculptures a {
