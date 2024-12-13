@@ -438,6 +438,7 @@ header .billeterie a {
 }
 
 .billeterie {
+    color: white;
     background-color: black;
     border-radius: 5px;
     padding-left: 32px;
