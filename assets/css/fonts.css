@@ -17,6 +17,8 @@
     @font-face {
         font-family: "CabinetGrotesk";
         src: url(../fonts/CabinetGrotesk-Variable.ttf) format('ttf');
+        src: url(../fonts/BricolageGrotesque-Regular.otf) format('otf');
+
       }
 
       
