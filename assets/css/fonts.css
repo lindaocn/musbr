@@ -2,8 +2,12 @@
         font-family: "LemonMilkBold";
         src: url(../fonts/LEMONMILK-Bold.woff2) format('woff2');
         src: url(../fonts/LEMONMILK-Bold.otf) format('otf');
+    
+
 
       }
+
+      @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
     @font-face {
         font-family: "LemonMilkMedium";
@@ -15,6 +19,8 @@
         font-family: "CabinetGrotesk";
         src: url(../fonts/CabinetGrotesk-Variable.ttf) format('ttf');
       }
+
+      
     
     .bricolage-grotesque{
         font-family: "Cabinet Grotesk Variable";
@@ -36,6 +42,8 @@
         font-size: 90px;
         line-height: 100%;
     }
+
+    
 
     h2, .h2{
         font-family: "LemonMilkBold";
