@@ -1,46 +1,14 @@
-    @font-face {
-        font-family: "LemonMilkBold";
-        src: url(../fonts/LEMONMILK-Bold.woff2) format('woff2');
-        src: url(../fonts/LEMONMILK-Bold.otf) format('otf');
-    
+@import url('https://fonts.cdnfonts.com/css/lemon-milk');
 
-
-      }
-
-
-    @font-face {
-        font-family: "LemonMilkMedium";
-        src: url(../fonts/LEMONMILK-Medium.woff2) format('woff2');
-        src: url(../fonts/LEMONMILK-Medium.otf) format('otf');
-        ;
-      }
-    @font-face {
-        font-family: "CabinetGrotesk";
-        src: url(../fonts/CabinetGrotesk-Variable.ttf) format('ttf');
-        src: url(../fonts/BricolageGrotesque-Regular.otf) format('otf');
-        src: url(../fonts/BricolageGrotesque-Regular.woff2) format('woff2');
-
-      }
-
-      
-    
-    .bricolage-grotesque{
-        font-family: "CabinetGrotesk";
-        font-optical-sizing: auto;
-        font-weight: 400; /*400: normal, 600: bold*/
-        font-style: normal;
-        font-variation-settings:
-          "wdth" 100;
-      }
-    /*Dans le code de HTML ajoute la class
-    <p class="bricolage-grotesque></p> partout !! 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
-    */
+.bricolage-grotesque {
+    font-family: "Bricolage Grotesque", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
 
     h1, .h1{
-        font-family: "LemonMilkBold";
+        font-family: "Lemon Milk";
         font-size: 90px;
         line-height: 100%;
     }
@@ -48,13 +16,13 @@
     
 
     h2, .h2{
-        font-family: "LemonMilkBold";
+        font-family: "Lemon Milk";
         font-size: 29px;
         line-height: 100%;
     }
 
     h3, .h3{
-        font-family: "LemonMilkMedium";
+        font-family: "Lemon Milk";
         font-size: 32px;
         line-height: 100%;
     }
@@ -69,7 +37,7 @@
         font-weight: 800; 
         font-size: 24px;
         color: black;
-        font-family: "CabinetGrotesk";
+        font-family: "Bricolage Grotesque";
 
     }
 
